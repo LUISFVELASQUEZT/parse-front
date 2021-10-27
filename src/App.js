@@ -17,7 +17,7 @@ function App() {
     <Auth0Provider
       domain='parse-manofacturer.us.auth0.com'
       clientId='tHoSOnRwFju4K39I7TqS5eIoARoYgZmV'
-      redirectUri="http://localhost:3000/admin"
+      redirectUri="https://webparsefe.herokuapp.com/admin"
       audience='api-autentication-parse-manofacturer'
     >
       <Router>
