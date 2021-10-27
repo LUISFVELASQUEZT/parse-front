@@ -1,0 +1,132 @@
+
+
+
+:root{
+--margin_separar: 240px;
+
+}
+.sidebar{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: var(margin_separar);
+    
+    background:#212529;
+    padding: 6px 14px;
+    
+  }
+ 
+  .sidebar .logo-details{
+    height: 60px;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+
+  .btnExit .iconSidebar {
+    margin: 0;
+  }
+  
+  .sidebar .logo-details .img{
+    opacity: 1;
+  }
+  .sidebar .logo-details .logo_name {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 800;
+    opacity: 1;
+    
+    
+    
+  }
+  
+  .sidebar .logo-details #btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 22px;
+    font-size: 23px;
+    text-align: center;
+    cursor: pointer;
+    
+  }
+
+  .homeicon{
+    
+    height: 36px;
+    
+    margin-right: 10px;
+  }
+
+  .iconSidebar{
+    height: 24px;
+    width: 24px;
+    margin-top:4px;
+    
+    border-radius: 6px;
+    font-size: 15px; 
+  }
+    
+  .sidebar .nav-list{
+    margin-top: 20px;
+    height: calc(100%-200px);
+    align-items: start;
+    padding-inline-start: 0px;
+    text-decoration: none;
+    
+  }
+
+  .sidebar li, .logoutsection li{
+    
+    margin: 0px 0px;
+    list-style: none;
+    border-radius: 1px;
+    height: 100%;
+    
+  }
+  .sidebar li a, .logoutsection a{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    text-decoration: none;
+   
+    
+    
+    background: #1960c9;
+    margin-bottom: 10px;
+    align-items: center;
+  
+  }
+
+  .sidebar li :hover{
+    background:#0d6efd;
+
+    /* background:#0d6efd;
+    background: #1960c9;*/
+    
+  }
+  .logoutsection{
+      position: relative;
+      margin-top: 400px;
+  }
+  .logoutsection a:hover{
+    background: #0d6efd;
+}
+
+.links_name{
+    color: whitesmoke;
+    font-family: sans-serif;
+
+}
+ 
